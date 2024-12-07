@@ -51,12 +51,26 @@ Attendance Management System using Face Recognition/
 ```
 
 ---
-## Error Handling ⚠️  
-### Built-in Features to Address Common Issues:
-1. **Database Connection Issues**: Verifies and alerts on connectivity problems.
-2. **Camera Access Errors**: Notifies users if the camera is unavailable or not functioning.
-3. **Unrecognized Faces**: Logs such instances for manual review.
-4. **Missing Dependencies**: Guides users to install any missing Python modules.  
+## Usage
+
+### 1. Capture Images
+- Run `main_Run.py` to open the GUI.
+- Enter the student's enrollment number and name.
+- Click on **"Take Images"** to capture their face images.
+
+### 2. Train the Model
+- After capturing images, click on **"Train Images"** to train the face recognition model.
+
+### 3. Automatic Attendance
+- Select **"Automatic Attendance"** to start the face recognition process using the webcam.
+
+### 4. Manual Attendance
+- Use the **"Manually Fill Attendance"** option to manually fill attendance records.
+
+### 5. View Registered Students
+- Access the admin panel to view the list of registered students and their details.
+
+---
 
 ---
 
