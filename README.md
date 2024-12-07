@@ -48,6 +48,9 @@ Attendance Management System using Face Recognition/
 ├── app.py                       # Streamlit app for attendance visualization
 └── README.md                    # Project documentation
 ---
+```
+
+---
 ## Error Handling ⚠️  
 ### Built-in Features to Address Common Issues:
 1. **Database Connection Issues**: Verifies and alerts on connectivity problems.
