@@ -31,7 +31,23 @@ pip install -r requirements.txt
 - Ensure the database schema matches the requirements provided in the documentation.  
 
 ---
-
+## Directory Structure
+```plaintext
+Attendance Management System using Face Recognition/
+│
+├── TrainingImage/               # Directory to store training images
+├── TrainingImageLabel/          # Directory to save trained model
+├── StudentDetails/              # Directory to save student details CSV
+├── Attendance/                  # Directory to save attendance records
+├── haarcascade_frontalface_default.xml  # Haarcascade file for face detection
+├── requirements.txt             # Required Python packages
+├── main_Run.py                  # Main application file
+├── training.py                  # Script for training the face recognition model
+├── testing.py                   # Script for testing face recognition
+├── mini_app.py                  # Simple GUI application for capturing images
+├── app.py                       # Streamlit app for attendance visualization
+└── README.md                    # Project documentation
+---
 ## Error Handling ⚠️  
 ### Built-in Features to Address Common Issues:
 1. **Database Connection Issues**: Verifies and alerts on connectivity problems.
