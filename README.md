@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 ## Technical Requirements 📦  
 To run this project, install the following libraries:  
-1. **pymysql**: For database operations.  
+1. **excel**: For database operations.  
 2. **opencv-python**: To enable camera access and facial recognition.  
 3. **numpy**: For efficient data handling and calculations.  
 4. **face-recognition**: Core library for facial identification.  
@@ -62,7 +62,7 @@ To run this project, install the following libraries:
    ```
 3. Clone the repository:
    ```bash
-   git clone https://github.com/Vicky-codes17/Attendance_Management_System_Using_Face_Recognition.git
+   git clone https://github.com/vaibhell/attendance.git
    ```
 
 ### Install Dependencies  
@@ -77,8 +77,8 @@ To run this project, install the following libraries:
 
 ### Create Necessary Folders  
 Ensure the following directories are created to store image data:
-- **SelfieImages**: For capturing real-time images.  
-- **TrainingImages**: For training facial recognition models.  
+- **Attendance**: For capturing real-time images.  
+- **TrainingImage**: For training facial recognition models.  
 
 ---
 
@@ -102,7 +102,7 @@ For suggestions or feature requests, feel free to open an issue on the GitHub pa
 ---
 
 ## Acknowledgements  
-I extend my deepest gratitude to my mentor, **Aditya Ardak**, for his exceptional guidance and support throughout this project. Your insights have been invaluable.  
+I extend my deepest gratitude to my mentor, **Aditya Prashant Ardak**, for his exceptional guidance and support throughout this project. Your insights have been invaluable.  
 
 Special thanks to the entire team for this opportunity to work on such an impactful project, enhancing both my technical skills and understanding of real-world applications.
 
